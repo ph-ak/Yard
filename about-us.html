@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initail-scale=1" />
+    <title>Yard</title>
+    <!--CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=M+PLUS+1p:wght@100;300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="head wrapper">
+       <div class="head-t"><h1><a href="index.html">Yard</a></h1></div>
+        <div class="head-c-all"><div class="head-c">
+           <a href="#about">About Us</a> 
+        </div> 
+        <div class="head-c">
+            <a href="our-philosophy.html"> Corporate Philosophy</a> 
+        </div> 
+        <div class="head-c">
+            <a href="contact.html">Contact</a>
+        </div>
+       </div>
+    </div>
+    <div class="art-a wrapper">
+        <div class="art-c">
+            <div class="art-t wrapper">
+            <h3 id="about"> About Us</h3>
+        </div>
+        <p class="art">ここにテキストを挿入ここにテキストを挿入ここにテキストを挿入ここにテキストを挿入ここにテキストを挿入</p>
+    </div>
+    <footer>
+        <div class="f-c wrapper">
+            <h3><a href="index.html">Yard</a></h3>
+            <div class="f-c-j">
+                <h4><a href="#about">About Us</a></h4>
+                <h4><a href="our-philosophy.html">Our Philosophy</a></h4>
+                <h4><a href="contact.html">Contact</a></h4>
+            </div>
+        </div>
+        <div class="wrapper">
+            <p>&copy;2023 Yard@CNU1</p>
+        </div>
+    </footer>
+    </body>
+    <style>
+      a{color:inherit;text-decoration: none;}
+      body{font-family: 'Abril Fatface', cursive;font-family: 'M PLUS 1p', sans-serif;color: black;}
+      img{max-width: 100%;}
+      .head{display: flex;justify-content: space-between;}
+      .head-c-all{display: flex;font-size: 1.25rem;text-transform: uppercase;margin-top: 34px;list-style: none;}
+      .head-c{margin-left: 36px;}
+      .head-t{font-weight: bold;}
+      .wrapper{max-width: 1100%;margin: 0 auto;padding: 0 4%;}
+      footer{background: black;text-align: center;padding: 26px 0;color: white;}
+      footer p{color: white;font-size: 0.875rem;}
+      .art-t{font-size: 2rem;text-align: center;}
+      .art{font-size: 1.4rem;margin: 40px;text-align: center;}
+      .art-c{margin-bottom: 15px;margin-top: 15px;}
+      .f-c{padding: 1% 25%;}
+      .f-c h3{font-size: 1.2rem;}
+      .f-c-j{display: flex;justify-content: space-around;font-size: 1rem;}
+      @media (max-width: 1080px){
+        .home-title{font-size: 2.5rem;}
+        .head-c-all{font-size: 0.7rem;margin-top: 17px;}
+        .home p{font-size: 1.3rem;}
+        .art-t{font-size: 1.3rem;}
+        .art{font-size: 0.95rem;}
+        .home{margin-bottom: 15px;}
+      }
+    </style>
+  </html>
