@@ -5,11 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initail-scale=1" />
         <title>Yard</title>
+        <!--Ver.1.0.1-->
         <!--CSS-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=M+PLUS+1p:wght@100;300&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/png" href="Yard-logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Yard-logo.svg">
       </head>
   <body>
     <div class="head wrapper">
@@ -38,12 +39,19 @@
             <h3><a href="index.html">Yard</a></h3>
             <div class="f-c-j">
                 <h4><a href="about-us.html">About Us</a></h4>
-                <h4><a href="#Philosophy">Our Philosophy</a></h4>
+                <h4><a href="our-philosophy.html">Our Philosophy</a></h4>
                 <h4><a href="contact.html">Contact</a></h4>
+            </div>
+            <div class="github-link">
+              <h4>Powered by</h4>
+              <a href="http://github.com" target="_blank">
+              <img class="img-g" src="github-mark-white.svg">
+              <img class="img-g" src="GitHub_Logo_White.svg">
+              </a>
             </div>
         </div>
         <div class="wrapper">
-            <p>&copy;2023 Yard@CNU1</p>
+            <p>This page is FAKE<br>&copy;2023 Yard@CNU1</p>
         </div>
      </footer>
     </body>
@@ -62,6 +70,7 @@
         .button{font-size: 1.375rem;background-color: black;color: white;border-radius: 5px;padding: 18px 32px;}
         footer{background: black;text-align: center;padding: 26px 0px;color: white;width: 100%;}
         footer p{color: white;font-size: 0.875rem;}
+        .img-g{width: 10%;height: auto;}
         .art-t{font-size: 2rem;text-align: center;}
         .art{font-size: 1.4rem;padding: 0% 7%;text-align: center;}
         .art-c{margin-bottom: 15px;margin-top: 15px;}
@@ -72,27 +81,29 @@
         .f-c-j{display: flex;justify-content: space-around;font-size: 1rem;}
         .line{height: 70px;width: 0px; margin: 0.5% 50%;border: 1px solid white;}
         @media screen and (max-width: 900px) {
-            .home-title{font-size: 2.5rem;}
-            .head-c-all{margin-top: 17px;font-size: 0.9rem;}
-            .home p{font-size: 1.3rem;}
-            .art-t{font-size: 1.3rem;}
-            .art{padding: 0% 3.5%;font-size: 1.1rem;}
-            .home{margin-bottom: 15px;}
-            .f-c-j{font-size: 0.7rem;}
-            .f-c{padding: 1% 12.5%;}
-            .a-u{padding: 0% 15%;font-size: 0.95rem;}
-            li{margin: 6px 0px 6px 0px;}
-            .line{height: 60px;width: 0px;border: 0.5px solid white;}
-          }
+        .home-title{font-size: 2.5rem;}
+        .head-c-all{margin-top: 17px;font-size: 0.9rem;}
+        .home p{font-size: 1.3rem;}
+        .art-t{font-size: 1.3rem;}
+        .art{padding: 0% 3.5%;font-size: 1.1rem;}
+        .home{margin-bottom: 15px;}
+        .f-c-j{font-size: 0.7rem;}
+        .f-c{padding: 1% 12.5%;}
+        .a-u{padding: 0% 15%;font-size: 0.95rem;}
+        li{margin: 6px 0px 6px 0px;}
+        .line{height: 60px;width: 0px;border: 0.5px solid white;}
+        .img-g{width: 20%;}
+      }
           @media screen and (max-width: 600px) {
             .head-c-all{font-size: 0.7rem;}
             .art{font-size: 0.95rem;}
           }
           @media (prefers-color-scheme: dark) {
-            body{color: white;background-color: black;}
-            .head{border: 1px solid white;}
-            footer{background-color: rgb(66, 66, 66);}
-            .button{border: 1px solid white;}
-          }
+        body{color: white;background-color: black;}
+        .head{border: 1px solid white;}
+        footer{background-color: rgb(66, 66, 66);}
+        .button{border: 1px solid white;}
+        img{fill: white;}
+      }
       </style>
   </html>
